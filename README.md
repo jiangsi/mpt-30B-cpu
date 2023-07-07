@@ -62,23 +62,29 @@ The application will launch a local web interface where you can start interactin
 Enter your desired input in the provided text box and press Enter or click the "Send" button.
 
 The model will generate a response based on the input provided, and the output will be displayed in the chat interface.
-
+![](doc/jiemian_20230706223144.jpg)
 
 ## Known Issues and Limitations
 mpt-30B-chat-GGML is not compatible with GGML and llama.cpp models. It is designed specifically for the mpt-30B-chat model.
+
 mpt-30B-chat-GGML is not compatible with the text-Generation-webui project.
+
 For handling models other than mpt-30B-chat, please refer to the list of recommended tools mentioned below.
+
 [mpt-30B-inference](https://github.com/abacaj/mpt-30B-inference/tree/main) will not response any thing in windows , please use macos
+
 [koboldcpp](https://github.com/LostRuins/koboldcpp) can not support other language then english,like chinese.
 
 So, I spent an afternoon learning langchain and gradio, and wrote this code that is somewhat functional as a demo.
 
 
 
-![](doc/jiemian_20230706223144.jpg)
+
 ![](doc/mem_20230706222730.png)
 ## Credits
 
 Credit to abacaj for the original template [here](https://github.com/abacaj/mpt-30B-inference/tree/main)
+
 Credit to TheBloke for the MPT-30B GGML model [here](https://huggingface.co/TheBloke/mpt-30B-chat-GGML)
+
 Credit to code  [here](https://github.com/ffreemt/mpt-30b-chat)
