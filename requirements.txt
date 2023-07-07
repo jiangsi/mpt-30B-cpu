@@ -1,0 +1,13 @@
+loguru
+gradio
+huggingface_hub
+ctransformers==0.2.10
+transformers==4.30.2
+about-time
+sentencepiece
+torch
+termcolor
+einops
+langchain
+python-dotenv
+utils
